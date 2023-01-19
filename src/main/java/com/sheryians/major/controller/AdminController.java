@@ -110,6 +110,7 @@ public class AdminController {
         else{
             imageUUID = imgName;
         }
+        //edit
 
         product.setImageName(imageUUID);
         productService.addProduct(product);
